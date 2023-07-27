@@ -39,6 +39,26 @@ print(python_dic['if'])
 
 # Foydalanuvchidan biror so'z kiritishni so'rang va so'zning tarjimasini yuqoridagi lug'atdan chiqarib bering.
 # Agar so'z lu'gatda mavjud bo'lmasa, "Bunda so'z mavjud emas" degan xabarni chiqaring.
-input('Kiriting: ')
-soz = python_dic.get('boo')
-print(soz)
+soz = input('Kalit so\'z kiriting: ')
+if soz == 'in':
+    print(python_dic['in'])
+elif soz == 'string':
+    print(python_dic['string'])
+elif soz == 'if':
+    print(python_dic['if'])
+elif soz == 'for':
+    print(python_dic['for'])
+elif soz == 'integer':
+    print(python_dic['integer'])
+elif soz == 'true':
+    print(python_dic['true'])
+elif soz == 'false':
+    print(python_dic['false'])
+elif soz == 'error':
+    print(python_dic['error'])
+elif soz == 'or':
+    print(python_dic['or'])
+elif soz == 'float':
+    print(python_dic['float'])
+else:
+    print('Mavjud emas!')
